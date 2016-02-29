@@ -1,0 +1,321 @@
+/* CSS Document */
+/* the stylesheet for tables */
+
+/* general containers for header and body */
+#table_header {
+	width:inherit;
+	overflow:visible;
+	float:none;
+}
+
+#table_body {
+	width:inherit;
+	overflow:visible;
+	float:none;
+}
+
+/* general table container - width and height defined on page */
+#table_container {
+	margin: 5px auto;
+}
+
+/* stat table container - width and height defined on page */
+#stat_table {
+	margin: 5px auto 20px auto;
+}
+
+
+/******************************************
+ * FIXED WIDTH COLUMN DIVS - with headers *
+ ******************************************/
+/* columns for numbers */
+#width_50px {
+	width:50px;
+	text-align:right;
+	margin:2px;
+	float:left;
+}
+#width_50px_head {
+	width:50px;
+	background:#000099;
+	color:#ffffff;
+	font:bold 1em Verdana, Arial, Helvetica, sans-serif;
+	text-align:center;
+	margin:2px;
+	float:left;
+}
+
+#width_75px {
+	width:75px;
+	text-align:right;
+	margin:2px;
+	float:left;
+
+}
+#width_75px_head {
+	width:75px;
+	background:#000099;
+	color:#ffffff;
+	font:bold 1em Verdana, Arial, Helvetica, sans-serif;
+	text-align:center;
+	margin:2px;
+	float:left;
+}
+
+#width_100px {
+	width:100px;
+	text-align:right;
+	margin:2px;
+	float:left;
+}
+#width_100px_head {
+	width:100px;
+	background:#000099;
+	color:#ffffff;
+	font:bold 1em Verdana, Arial, Helvetica, sans-serif;
+	text-align:center;
+	margin:2px;
+	float:left;
+}
+
+/* columns for text */
+#width_150px {
+	width:150px;
+	text-align:left;
+	margin:2px;
+	float:left;
+}
+#width_150px_head {
+	width:150px;
+	background:#000099;
+	color:#ffffff;
+	font:bold 1em Verdana, Arial, Helvetica, sans-serif;
+	text-align:center;
+	margin:2px;
+	float:left;
+}
+
+#width_200px {
+	width:200px;
+	text-align:left;
+	margin:2px;
+	float:left;
+}
+#width_200px_head {
+	width:200px;
+	background:#000099;
+	color:#ffffff;
+	font:bold 1em Verdana, Arial, Helvetica, sans-serif;
+	text-align:center;
+	margin:2px;
+	float:left;
+}
+
+#width_250px {
+	width:250px;
+	text-align:left;
+	margin:2px;
+	float:left;
+}
+#width_250px_head {
+	width:250px;
+	background:#000099;
+	color:#ffffff;
+	font:bold 1em Verdana, Arial, Helvetica, sans-serif;
+	text-align:center;
+	margin:2px;
+	float:left;
+}
+
+#width_300px {
+	width:300px;
+	text-align:left;
+	margin:2px;
+	float:left;
+}
+#width_300px_head {
+	width:300px;
+	background:#000099;
+	color:#ffffff;
+	font:bold 1em Verdana, Arial, Helvetica, sans-serif;
+	text-align:center;
+	margin:2px;
+	float:left;
+}
+
+#width_350px_head {
+	width:354px;
+	background:#000099;
+	color:#ffffff;
+	font:bold 1em Verdana, Arial, Helvetica, sans-serif;
+	text-align:center;
+	margin:2px;
+	float:left;
+}
+
+#width_400px {
+	width:400px;
+	text-align:left;
+	margin:2px;
+	float:left;
+}
+#width_400px_head {
+	width:400px;
+	background:#000099;
+	color:#ffffff;
+	font:bold 1em Verdana, Arial, Helvetica, sans-serif;
+	text-align:center;
+	margin:2px;
+	float:left;
+}
+
+#width_500px {
+	width:500px;
+	text-align:left;
+	margin:2px;
+	float:left;
+}
+#width_500px_head {
+	width:500px;
+	background:#000099;
+	color:#ffffff;
+	font:bold 1em Verdana, Arial, Helvetica, sans-serif;
+	text-align:center;
+	margin:2px;
+	float:left;
+}
+
+#width_600px {
+	width:600px;
+	text-align:left;
+	margin:2px;
+	float:left;
+}
+#width_600px_head {
+	width:600px;
+	background:#000099;
+	color:#ffffff;
+	font:bold 1em Verdana, Arial, Helvetica, sans-serif;
+	text-align:center;
+	margin:2px;
+	float:left;
+}
+
+/*********************
+ * LEAGUE TABLE DIVS *
+ *********************/
+/* league table container - height defined on page */
+#league {
+	width:517px;
+	margin:5px auto;
+}
+
+/* place column for league index page */
+#place_col_head {
+	width:30px;
+	margin:2px 5px 2px 2px;
+	float:left;
+	background:#000099;
+	font:bold 1em Verdana, Arial, Helvetica, sans-serif;
+	text-align:right
+}
+#place_col {
+	width:30px;
+	margin:2px 5px 2px 2px;
+	float:left;
+	text-align:right;
+}
+
+/* league team column */
+#team_col_head {
+	width:350px;
+	margin:2px;
+	float:left;
+	background:#000099;
+	color:#ffffff;
+	font:bold 1em Verdana, Arial, Helvetica, sans-serif;
+	text-align:center;
+}
+
+#team_col {
+	width:350px;
+	margin:2px;
+	float:left;
+	text-align:left;
+}
+
+/* league competitions column */
+#comps_col_head {
+	width:30px;
+	margin:2px;
+	float:left;
+	background:#000099;
+	color:#ffffff;
+	font:bold 1em Verdana, Arial, Helvetica, sans-serif;
+	text-align:center;
+}
+
+#comps_col {
+	width:30px;
+	margin:2px;
+	float:left;
+	text-align:right;
+}
+
+/* league ranking column */
+#rank_col_head {
+	width:50px;
+	margin:2px;
+	float:left;
+	background:#000099;
+	color:#ffffff;
+	font:bold 1em Verdana, Arial, Helvetica, sans-serif;
+	text-align:center;
+}
+
+#rank_col {
+	width:50px;
+	margin:2px;
+	float:left;
+	text-align:right;
+}
+
+/* league fault difference column */
+#fd_col_head {
+	width:70px;
+	margin:2px;
+	float:left;
+	background:#000099;
+	color:#ffffff;
+	font:bold 1em Verdana, Arial, Helvetica, sans-serif;
+	text-align:center;
+}
+
+#fd_col {
+	width:70px;
+	margin:2px;
+	float:left;
+	text-align:right;
+}
+
+/* General table attributes using tables */
+table {
+	background:none;
+	margin:0 auto;
+	padding:1px;
+	border:0;
+}
+
+th {
+	background: #009;
+	color: #fff;
+	font: bold 1em Arial, Helvetica, sans-serif;
+	text-align:center;
+	margin: 2px;
+	padding: 1px 5px;
+}
+
+td {
+	margin: 2px;
+	padding: 2px;
+}
